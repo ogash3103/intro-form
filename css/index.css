@@ -110,3 +110,57 @@ img
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+/* hero */
+
+.intro-page {
+  display: flex;
+}
+.hero {
+  --text-color:#fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  color: var(--text-color);
+  overflow: hidden;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 55px 60px;
+  background-color: #555;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero-bage {
+  padding: 5px 15px;
+  border: 1px solid var(--text-color);
+  font-size:14px;
+  font-weight: 500;
+  border-radius: 41px;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 1.4;
+}
+.hero-text {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 26px ;
+}
+.hero-bottom {
+  padding: 18px;
+  text-align: center;
+  font-size: 19px;
+  background-color: var(--grren);
+}
